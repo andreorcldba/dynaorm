@@ -1,0 +1,30 @@
+{
+  "name": "@dynaorm/core",
+  "version": "1.0.0",
+  "description": "Modern, fast, powerful DynamoDB ORM",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node start.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreorcldba/dynaorm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreorcldba/dynaorm/issues"
+  },
+  "homepage": "https://github.com/andreorcldba/dynaorm#readme",
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.413.0",
+    "@aws-sdk/lib-dynamodb": "^3.413.0",
+    "i": "^0.3.7",
+    "npm": "^10.1.0",
+    "reflect-metadata": "0.1.13"
+  }
+}
